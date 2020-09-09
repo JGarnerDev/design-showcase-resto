@@ -1,0 +1,27 @@
+{
+  "name": "design-showcase-resto",
+  "version": "1.0.0",
+  "description": "A showcase of design principles in web development (HTML, SASS, Bootstrap, and animation)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGarnerDev/design-showcase-resto.git"
+  },
+  "keywords": [
+    "Design",
+    "Restaurant",
+    "SASS",
+    "HTML",
+    "Bootstrap",
+    "Animation"
+  ],
+  "author": "Jeff Garner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGarnerDev/design-showcase-resto/issues"
+  },
+  "homepage": "https://github.com/JGarnerDev/design-showcase-resto#readme"
+}
