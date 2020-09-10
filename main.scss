@@ -243,9 +243,12 @@ header {
 	}
 }
 
-#menu {
+#info {
 	background-color: rgba(16, 29, 44, 0.95);
 	color: white;
+	#menu .section-heading {
+		padding-top: 20px;
+	}
 	.menu-item {
 		display: flex;
 		align-items: center;

@@ -10134,66 +10134,69 @@ header .container .hero-text h1 {
   }
 }
 
-#menu {
+#info {
   background-color: rgba(16, 29, 44, 0.95);
   color: white;
 }
-#menu .menu-item {
+#info #menu .section-heading {
+  padding-top: 20px;
+}
+#info .menu-item {
   display: flex;
   align-items: center;
   background-color: white;
 }
-#menu .menu-item .menu-item-desc {
+#info .menu-item .menu-item-desc {
   width: 90%;
   margin: auto;
   color: black;
   line-height: 10px;
   padding: 5px 0 5px 0;
 }
-#menu .menu-item .menu-item-desc::before {
+#info .menu-item .menu-item-desc::before {
   background-color: transparent !important;
 }
-#menu .menu-item .menu-item-desc .btn {
+#info .menu-item .menu-item-desc .btn {
   background-color: black !important;
   float: right;
 }
 @media (min-width: 1200px) {
-  #menu .menu-item .menu-item-desc .btn {
+  #info .menu-item .menu-item-desc .btn {
     display: none;
   }
 }
-#menu .menu-item .menu-item-desc h1 {
+#info .menu-item .menu-item-desc h1 {
   font-family: "Averia Serif Libre", cursive;
 }
-#menu .menu-item .menu-item-desc h6,
-#menu .menu-item .menu-item-desc p {
+#info .menu-item .menu-item-desc h6,
+#info .menu-item .menu-item-desc p {
   margin: 0;
   line-height: 20px;
 }
-#menu .shop-info {
+#info .shop-info {
   height: 100%;
 }
-#menu .shop-info i {
+#info .shop-info i {
   font-size: 30px;
 }
-#menu .shop-info h1 {
+#info .shop-info h1 {
   font-family: "Averia Serif Libre", cursive;
   font-size: 25px;
   text-transform: uppercase;
 }
-#menu .shop-info p,
-#menu .shop-info address {
+#info .shop-info p,
+#info .shop-info address {
   color: rgba(255, 255, 255, 0.493);
   line-height: 20px;
 }
-#menu .point-left,
-#menu .point-right {
+#info .point-left,
+#info .point-right {
   position: relative;
   background-color: white;
   display: flex;
 }
-#menu .point-left::before,
-#menu .point-right::before {
+#info .point-left::before,
+#info .point-right::before {
   content: "";
   position: absolute;
   width: 25px;
@@ -10205,8 +10208,8 @@ header .container .hero-text h1 {
   z-index: 1;
 }
 @media (min-width: 576px) {
-  #menu .point-left::before,
-#menu .point-right::before {
+  #info .point-left::before,
+#info .point-right::before {
     display: none;
   }
 }
